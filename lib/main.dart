@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setEnabledSystemUIOverlays([]);
     allPeople = [Person("Maanas", "Why so serious?")];
+    allPeople = [person("dhattarwal", "chill out")] ;
     allPeople.add(Person("Shubh", "Alright, Alright, Alright!"));
 //    allPeople.add(Person("Shubh", "Why so serious?"));
 
